@@ -19,9 +19,9 @@
 #define GER 5
 #define GAME 6
 
-#define D_MUTE LC(LA(LS(KP_LPAR)))
-#define D_DEAF LC(LA(LS(KP_RPAR)))
-#define D_STREAM LC(LA(LS(KP_COMMA)))
+#define D_MUTE LC(KP_LPAR)
+#define D_DEAF LC(KP_RPAR)
+#define D_STREAM LC(KP_COMMA)
 
 // euro sign
 ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
@@ -37,7 +37,7 @@ ZMK_MOD_MORPH(delete,
 ZMK_MACRO(win_sleep,
     wait-ms = <100>;
     tap-ms = <5>;
-    bindings = <&kp LG(X) &kp U &kp S>;
+    bindings = <&kp LG(X) &kp R &kp E>;
 )
 
 ZMK_HOLD_TAP(ltp, 
