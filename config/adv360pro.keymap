@@ -10,6 +10,8 @@
 #include "zmk-helpers/unicode-chars/german.dtsi"
 
 #define ___ &trans
+
+#define HOST_OS 1
  
 #define DEF 0
 #define FN 1
