@@ -1,0 +1,28 @@
+parse_config:
+  raw_binding_map:
+    "Meh+8": Discord Mute
+    "Meh+9": Discord Deafen
+    "Meh+0": Discord Stream
+
+    "&sys_reset": Reset
+    "&bootloader": Boot
+    "&caps_word": Caps Word
+
+    "&bl BL_INC": Backlight +
+    "&bl BL_DEC": Backlight -
+    "&bl BL_TOG": Backlight On/Off
+    "RGB TOG": LEDs On/Off
+
+    "Sft+P": ":"
+
+  layer_legend_map:
+    default_layer: DEF
+    fn_layer: FN
+    mod_layer: MOD
+    symbol_layer: SYM
+    num_layer: NUM
+    german_layer: GER
+    game_layer: GAME
+
+  zmk_additional_includes:
+    - "modules/zmk/helpers/include"

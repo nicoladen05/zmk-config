@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: adv360}
+layout: {zmk_keyboard: adv360pro, layout_name: urobs_transform}
 layers:
   default_layer:
   - '='
@@ -7,8 +7,8 @@ layers:
   - '3'
   - '4'
   - '5'
-  - {t: num_layer, h: toggle}
-  - mod_layer
+  - {t: NUM, h: toggle}
+  - MOD
   - '6'
   - '7'
   - '8'
@@ -21,7 +21,7 @@ layers:
   - E
   - R
   - T
-  - {t: game_layer, h: toggle}
+  - {t: GAME, h: toggle}
   - '&win_sleep'
   - Y
   - U
@@ -55,7 +55,7 @@ layers:
   - .
   - /
   - RSHIFT
-  - fn_layer
+  - FN
   - '`'
   - CAPS
   - VOL DN
@@ -64,19 +64,19 @@ layers:
   - PREV
   - '['
   - ']'
-  - fn_layer
+  - FN
   - LCTRL
   - LALT
   - LGUI
   - RCTRL
-  - {t: BSPC, h: fn_layer}
-  - symbol_layer
-  - HOME
-  - PG UP
+  - {t: BSPC, h: FN}
+  - SYM
+  - Ctl+SPACE
+  - Ctl+SPACE
   - ENTER
   - SPACE
-  - END
-  - PG DN
+  - {t: LGUI, h: sticky}
+  - {t: RGUI, h: sticky}
   fn_layer:
   - {t: ▽, type: trans}
   - F1
@@ -144,8 +144,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Meh+8
+  - Meh+9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -265,7 +265,7 @@ layers:
   - '['
   - '{'
   - (
-  - ':'
+  - Sft+P
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
@@ -305,7 +305,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - german_layer
+  - GER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   num_layer:
@@ -527,8 +527,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+KP LPAR
-  - Ctl+KP RPAR
+  - Meh+8
+  - Meh+9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
@@ -540,9 +540,15 @@ layers:
   - LALT
   - {t: ▽, type: trans}
 combos:
-- p: [71, 72]
+- p: [58, 57]
+  k: MUTE
+  l: [default_layer]
+- p: [59, 60]
   k: PLAY PAUSE
   l: [default_layer]
-- p: [35, 36]
-  k: Ctl+KP COMMA
+- p: [66, 67]
+  k: Meh+0
+  l: [fn_layer]
+- p: [64, 65]
+  k: Meh+0
   l: [game_layer]
