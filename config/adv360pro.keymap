@@ -19,17 +19,19 @@
 #define GER 5
 #define GAME 6
 
-#define D_MUTE LC(LS(LA(8)))
-#define D_DEAF LC(LS(LA(9)))
-#define D_STREAM LC(LS(LA(0)))
+#define D_MUTE LC(LS(LA(N8)))
+#define D_DEAF LC(LS(LA(N9)))
+#define D_STREAM LC(LS(LA(N0)))
 
 #define CCOLON LS(P)
 
 // euro sign
 ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
 
-ZMK_COMBO(playpause, &kp C_PLAY_PAUSE, 59 60, DEF)
-ZMK_COMBO(discord_stream, &kp D_STREAM, 64 65, GAME)
+ZMK_COMBO(combo_mute, &kp C_MUTE, 58 57, DEF)
+ZMK_COMBO(combo_playpause, &kp C_PLAY_PAUSE, 59 60, DEF)
+ZMK_COMBO(combo_discord_stream_fn, &kp D_STREAM, 66 67, FN)
+ZMK_COMBO(combo_discord_stream_game, &kp D_STREAM, 64 65, GAME)
 
 ZMK_MOD_MORPH(delete, 
   bindings = <&kp BSPC>, <&kp DEL>;
@@ -91,7 +93,7 @@ ZMK_LAYER(fn_layer,
     // ╭─────────────╮╭─────────────┬─────────────┬─────────────┬─────────────╮                                                            ╭─────────────┬─────────────┬─────────────┬─────────────╮╭─────────────╮
          ___            ___           ___           ___           ___                                                                        ___           ___           ___           ___            ___
     // ╰─────────────╯╰─────────────┴─────────────┴─────────────┴─────────────╯╭─────────────┬─────────────╮  ╭─────────────┬─────────────╮╰─────────────┴─────────────┴─────────────┴─────────────╯╰─────────────╯
-                                                                                 ___           ___              ___           ___
+                                                                                 ___           ___              &kp D_MUTE    &kp D_DEAF
     //                                                           ╭─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────╮
                                                                    ___           ___           ___              ___           ___           ___
     //                                                           │             │             ├─────────────┤  ├─────────────┤             │             │
