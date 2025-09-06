@@ -29,7 +29,7 @@
 #define CCOLON LS(P)
 
 // euro sign
-ZMK_UNICODE_SINGLE(euro_sign, KP_0, KP_1, KP_2, KP_8)  // €
+ZMK_UNICODE_SINGLE(euro_sign, KP_N0, KP_N1, KP_N2, KP_N8)  // €
 
 ZMK_COMBO(combo_mute, &kp C_MUTE, 58 57, DEF)
 ZMK_COMBO(combo_playpause, &kp C_PLAY_PAUSE, 59 60, DEF)
