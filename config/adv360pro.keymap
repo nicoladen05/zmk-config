@@ -9,7 +9,7 @@
 
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/key-labels/adv360.h"
-#include "zmk-helpers/unicode-chars/german-alt.dtsi"
+#include "zmk-helpers/unicode-chars/german_alt.dtsi"
 
 #define ___ &trans
  
