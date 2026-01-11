@@ -3,4 +3,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
     build:
-        uses: zmkfirmware/unified-zmk-config-template/blob/main/.github/workflows/build.yml
+        uses: zmkfirmware/unified-zmk-config-template/blob/main/.github/workflows/build.yml@main
