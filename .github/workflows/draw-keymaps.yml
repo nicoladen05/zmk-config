@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     with:
-      keymap_patterns: "config/*.keymap"
+      keymap_patterns: "config/adv360pro.keymap"
       config_path: "draw/config.yaml"
       output_folder: "draw"
       commit_message: "Draw keymaps"
