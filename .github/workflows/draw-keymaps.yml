@@ -18,4 +18,4 @@ jobs:
       output_folder: "draw"
       commit_message: "Draw keymaps"
       parse_args: "adv360pro:'-z config/adv360pro.keymap'"
-      draw_args: ""
+      draw_args: "adv360pro:'-l draw/adv360pro.json'"
