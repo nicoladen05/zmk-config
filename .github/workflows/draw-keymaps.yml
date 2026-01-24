@@ -17,5 +17,5 @@ jobs:
       config_path: "draw/config.yaml"
       output_folder: "draw"
       commit_message: "Draw keymaps"
-      parse_args: ""
+      parse_args: "adv360pro:'-z config/adv360pro.keymap'"
       draw_args: ""
