@@ -454,7 +454,9 @@ path.combo {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="868" y="246" width="28" height="26" class="combo"/>
-<text x="882" y="259" class="combo tap"><tspan style="font-size: 64%">&amp;C_BRI_AUTO</tspan></text>
+<text x="882" y="259" class="combo tap">
+<tspan x="882" dy="-0.6em">BRI</tspan><tspan x="882" dy="1.2em">AUTO</tspan>
+</text>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="756" y="239" width="28" height="26" class="combo"/>
