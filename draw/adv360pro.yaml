@@ -62,8 +62,8 @@ layers:
   - VOL UP
   - NEXT
   - PREV
-  - '['
-  - ']'
+  - BRI DN
+  - BRI UP
   - FN
   - LCTRL
   - LALT
@@ -542,6 +542,9 @@ layers:
 combos:
 - p: [58, 57]
   k: MUTE
+  l: [default_layer]
+- p: [61, 62]
+  k: '&C_BRI_AUTO'
   l: [default_layer]
 - p: [59, 60]
   k: PLAY PAUSE

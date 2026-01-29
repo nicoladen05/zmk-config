@@ -379,11 +379,15 @@ path.combo {
 </g>
 <g transform="translate(854, 252)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">[</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">BRI</tspan><tspan x="0" dy="1.2em">DN</tspan>
+</text>
 </g>
 <g transform="translate(910, 266)" class="key keypos-62">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">]</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">BRI</tspan><tspan x="0" dy="1.2em">UP</tspan>
+</text>
 </g>
 <g transform="translate(973, 266)" class="key keypos-63">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
@@ -449,6 +453,10 @@ path.combo {
 <text x="238" y="252" class="combo tap">MUTE</text>
 </g>
 <g class="combo combopos-1">
+<rect rx="6" ry="6" x="868" y="246" width="28" height="26" class="combo"/>
+<text x="882" y="259" class="combo tap"><tspan style="font-size: 64%">&amp;C_BRI_AUTO</tspan></text>
+</g>
+<g class="combo combopos-2">
 <rect rx="6" ry="6" x="756" y="239" width="28" height="26" class="combo"/>
 <text x="770" y="252" class="combo tap">
 <tspan x="770" dy="-0.6em">PLAY</tspan><tspan x="770" dy="1.2em">PAUSE</tspan>
