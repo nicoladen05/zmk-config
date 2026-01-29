@@ -32,6 +32,7 @@
 };
 
 ZMK_COMBO(combo_mute, &kp C_MUTE, 58 57, DEF)
+ZMK_COMBO(combo_auto_brightness, C_BRI_AUTO, 61 62, DEF)
 ZMK_COMBO(combo_playpause, &kp C_PLAY_PAUSE, 59 60, DEF)
 ZMK_COMBO(combo_playpause_game, &kp C_PLAY_PAUSE, 59 60, GAME)
 ZMK_COMBO(combo_discord_stream_fn, &kp D_STREAM, 66 67, FN)
@@ -76,7 +77,7 @@ ZMK_LAYER(default_layer,
          &kp LSHIFT     &kp Z         &kp X         &kp C         &kp V         &kp B                                          &kp K         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &kp RSHIFT
     // ╰─────────────╯╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯                                ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯╰─────────────╯
     // ╭─────────────╮╭─────────────┬─────────────┬─────────────┬─────────────╮                                                            ╭─────────────┬─────────────┬─────────────┬─────────────╮╭─────────────╮
-         &mo FN         &kp GRAVE     &kp CAPS      &kp C_VOL_DN  &kp C_VOL_UP                                                               &kp C_NEXT    &kp C_PREV    &kp LBKT      &kp RBKT       &mo FN
+         &mo FN         &kp GRAVE     &kp CAPS      &kp C_VOL_DN  &kp C_VOL_UP                                                               &kp C_NEXT    &kp C_PREV    &kp C_BRI_DN  &kp C_BRI_UP   &mo FN
     // ╰─────────────╯╰─────────────┴─────────────┴─────────────┴─────────────╯╭─────────────┬─────────────╮  ╭─────────────┬─────────────╮╰─────────────┴─────────────┴─────────────┴─────────────╯╰─────────────╯
                                                                                  &kp LCTRL     &kp LALT         &kp LGUI      &kp RCTRL
     //                                                           ╭─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────╮
