@@ -21,9 +21,9 @@
 #define GER 5
 #define GAME 6
 
-#define D_MUTE RA(F12)
-#define D_DEAF RA(F11)
-#define D_STREAM RA(F10)
+#define D_MUTE LC(LS(LA(N8)))
+#define D_DEAF LC(LS(LA(N9)))
+#define D_STREAM LC(LS(LA(N0)))
 
 #define CCOLON LS(P)
 
