@@ -62,8 +62,8 @@ layers:
   - VOL UP
   - NEXT
   - PREV
-  - F16
-  - F17
+  - Ctl+F11
+  - Ctl+F10
   - FN
   - LCTRL
   - LALT
@@ -144,8 +144,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F13
-  - F14
+  - AltGr+F12
+  - AltGr+F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -520,8 +520,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F13
-  - F14
+  - AltGr+F12
+  - AltGr+F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -544,7 +544,7 @@ combos:
   k: MUTE
   l: [default_layer]
 - p: [61, 62]
-  k: F18
+  k: Ctl+F12
   l: [default_layer]
 - p: [59, 60]
   k: PLAY PAUSE
@@ -553,8 +553,8 @@ combos:
   k: PLAY PAUSE
   l: [game_layer]
 - p: [66, 67]
-  k: F15(LS(LA(0)))
+  k: AltGr+F10
   l: [fn_layer]
 - p: [58, 57]
-  k: F15(LS(LA(0)))
+  k: AltGr+F10
   l: [game_layer]
