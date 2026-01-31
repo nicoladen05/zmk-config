@@ -23,6 +23,7 @@ parse_config:
     num_layer: NUM
     german_layer: GER
     game_layer: GAME
+    minecraft_layer: MINECRAFT
 
   zmk_additional_includes:
     - "zmk-helpers/include"
