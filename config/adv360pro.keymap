@@ -5,6 +5,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/outputs.h>
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 12
 #include <dt-bindings/zmk/pointing.h>
 
 #define HOST_OS 2
@@ -35,8 +37,17 @@
 };
 
 &mmv {
-    time-to-max-speed-ms = <180>;
-    acceleration-exponent = <2>;
+    delay-ms = <60>;
+    trigger-period-ms = <20>;
+    time-to-max-speed-ms = <200>;
+    acceleration-exponent = <1>;
+};
+
+&msc {
+    delay-ms = <10>;
+    trigger-period-ms = <80>;
+    time-to-max-speed-ms = <80>;
+    acceleration-exponent = <0>;
 };
 
 ZMK_COMBO(combo_mute, &kp C_MUTE, 58 57, DEF)
@@ -279,4 +290,3 @@ ZMK_LAYER(mouse_layer,
                                                                                                ___              ___
     //                                                           ╰─────────────┴─────────────┴─────────────╯  ╰─────────────┴─────────────┴─────────────╯
 )
-
