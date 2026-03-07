@@ -62,8 +62,8 @@ layers:
   - VOL UP
   - NEXT
   - PREV
-  - Ctl+F11
-  - Ctl+F10
+  - BRI UP
+  - BRI DN
   - FN
   - LCTRL
   - LALT
