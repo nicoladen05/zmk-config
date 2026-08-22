@@ -72,7 +72,7 @@ layers:
   - {t: BSPC, h: FN}
   - SYM
   - Ctl+SPACE
-  - Ctl+SPACE
+  - Sft+Gui+F23
   - ENTER
   - SPACE
   - {t: LGUI, h: sticky}
