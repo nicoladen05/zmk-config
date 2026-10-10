@@ -71,8 +71,8 @@ layers:
   - RCTRL
   - {t: BSPC, h: FN}
   - SYM
-  - Ctl+SPACE
   - Sft+Gui+F23
+  - F9
   - ENTER
   - SPACE
   - {t: LGUI, h: sticky}
